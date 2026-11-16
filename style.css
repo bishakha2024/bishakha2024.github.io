@@ -34,3 +34,14 @@ body{background:var(--paper)}
 .projects{background:#fff0f7}.project-card{border-color:#f3dce7;box-shadow:0 10px 28px #8b3a6410}.project-card.featured{background:linear-gradient(135deg,#ffe0ed,#fff5fa)}.project-card:hover{box-shadow:0 16px 34px #8b3a6420}
 .experience-entry{border-left-color:#ee77a8}.education-list article,footer{border-color:#f0dce7}
 @media(max-width:700px){.hero{background:radial-gradient(ellipse at 92% 10%,#f277ac 0,transparent 35%),linear-gradient(145deg,#281522,#47213b 62%,#2e1b30)}}
+
+/* Pink mobile-product theme */
+:root{--paper:#fff7fb;--green:#ff80b5;--ink:#281b25;--line:#f0dce7;--card:#fff}
+body{background:var(--paper)}
+.hero{background:radial-gradient(ellipse at 82% 24%,#f277ac 0,transparent 34%),linear-gradient(135deg,#281522 0%,#47213b 55%,#2e1b30 100%)}
+.brand span,.hero .eyebrow,h1 em,.hero-mark{color:#ff9bc4}.hero-content>p:first-child{border-color:#ff9bc455}
+.primary{background:#ff8fbd;color:#301a28;box-shadow:0 8px 28px #ff8fbd33}.secondary{border-color:#ffc3dc88;background:#ffffff0d}
+.section .eyebrow{color:#c24b80}.tag-list span{background:#fff;border-color:#f0cddd;color:#813b60}
+.projects{background:#fff0f7}.project-card{border-color:#f3dce7;box-shadow:0 10px 28px #8b3a6410}.project-card.featured{background:linear-gradient(135deg,#ffe0ed,#fff5fa)}.project-card:hover{box-shadow:0 16px 34px #8b3a6420}
+.experience-entry{border-left-color:#ee77a8}.education-list article,footer{border-color:#f0dce7}
+@media(max-width:700px){.hero{background:radial-gradient(ellipse at 92% 10%,#f277ac 0,transparent 35%),linear-gradient(145deg,#281522,#47213b 62%,#2e1b30)}}
